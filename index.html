@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by DREAM E</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Spotify Ohio</title>
+</head>
+<body>
+    <header>
+        <h1>Spotify Ohio...</h1>
+    </header>
+    <main>
+        <section id="populares">
+            <h2>Populares</h2>
+            <ul class="canciones-lista" id="populares-lista">
+                <!-- Aquí se cargarán las canciones populares -->
+            </ul>
+        </section>
+
+        <section id="rock">
+            <h2>Rock</h2>
+            <ul class="canciones-lista" id="rock-lista">
+                <!-- Aquí se cargarán las canciones de rock -->
+            </ul>
+        </section>
+
+        <section id="busqueda">
+            <h2>Buscar Canción</h2>
+            <input type="text" id="busqueda-input" placeholder="Ingrese el título de la canción">
+            <button onclick="buscarCanciones()">Buscar</button>
+            <ul class="canciones-lista" id="busqueda-lista">
+                <!-- Aquí se cargarán las canciones de la búsqueda -->
+            </ul>
+        </section>
+
+        <section id="reproductor">
+            <h2>Reproductor</h2>
+            <div id="reproductor-container"></div>
+            <div id="reproductor-menu" class="oculto">
+                <button id="reproducir-btn" onclick="reproducirCancion()">Reproducir</button>
+                <button id="pausar-btn" onclick="pausarCancion()">Pausar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Spotify Ohio. Todos los derechos raros de Ohio reservados.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
